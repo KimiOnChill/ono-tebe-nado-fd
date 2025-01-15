@@ -54,7 +54,7 @@
   position: relative;
   background-image: url(/images/cover.jpg);
   background-size: cover;
-  opacity: 0.999; 
+  opacity: 0.999;
   z-index: -1;
 }
 
@@ -70,7 +70,7 @@
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
-  opacity: 0.999; 
+  opacity: 0.999;
   z-index: 3;
   height: 385;
   padding: 165px 50px 106px 50px;
@@ -99,7 +99,7 @@
   gap: 40px;
   z-index: 3;
   padding-left: 50px;
-  margin-top: -20px; 
+  margin-top: -20px;
 }
 
 .description-text {
@@ -121,7 +121,6 @@
   background-color: transparent;
   border: none;
   margin: 0;
-  padding: 0;
   text-align: inherit;
   font: inherit;
   text-transform: uppercase;
@@ -223,7 +222,7 @@
   row-gap: 4px;
 }
 
-.row-logo{
+.row-logo {
   grid-area: logo;
 }
 
@@ -260,7 +259,7 @@
   
 }
 
-.about-text{
+.about-text {
   font-size: 20px;
 }
 
@@ -296,7 +295,7 @@
 }
 
 .footer-social-list {
-  padding-left: 25px; 
+  padding-left: 25px;
   display: flex;
   gap: 48px;
 }
