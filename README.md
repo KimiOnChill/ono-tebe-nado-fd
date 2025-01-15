@@ -1,3 +1,3 @@
 https://github.com/KimiOnChill/ono-tebe-nado-fd
 
-THis is a study project for building single web page by  given design.
+This is a public study project for building single web page by  given design.
