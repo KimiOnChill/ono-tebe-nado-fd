@@ -129,7 +129,7 @@
 /* second section */
 
 .lots {
-  margin: 179px 24px auto 24px;
+  padding: 179px 24px auto 24px;
 }
 
 .lots__heading {
@@ -217,7 +217,7 @@
 /* third section */
 
 .about {
-  margin: 120px 24px auto 24px;
+  padding: 120px 24px auto 24px;
   display: grid;
   grid-template-columns: 334px auto;
   grid-template-rows: 240px auto;
