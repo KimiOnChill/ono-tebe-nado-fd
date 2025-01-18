@@ -24,7 +24,7 @@
 
 .header__link {
   padding-top: 6px;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .header__logo {
@@ -42,7 +42,8 @@
 
 .header__address {
   justify-self: flex-end;
-  margin-right: 47px;
+  margin-right: 53px;
+  margin-top: 3px;
   max-width: 235px;
 }
 
@@ -129,14 +130,14 @@
 /* second section */
 
 .lots {
-  padding: 179px 24px auto 24px;
+  margin: 179px 24px auto 24px;
 }
 
 .lots__heading {
   font-size: 40px;
   text-transform: uppercase;
-  margin-left: 40px;
-  margin-bottom: 27px;
+  padding-left: 40px;
+  padding-bottom: 27px;
 }
 
 .lots__card-list {
@@ -217,7 +218,7 @@
 /* third section */
 
 .about {
-  padding: 120px 24px auto 24px;
+  margin: 120px 24px auto 24px;
   display: grid;
   grid-template-columns: 334px auto;
   grid-template-rows: 240px auto;
@@ -269,7 +270,7 @@
 /* footer */
 
 .footer {
-  margin: 180px 50px 50px 50px;
+  padding: 180px 50px 50px 50px;
   width: 1100px;
   display: grid;
   grid-template-columns: 264px 171px auto;
