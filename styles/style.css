@@ -73,25 +73,27 @@
 .cover__title {
   font-weight: bold;
   font-size: 100px;
-  letter-spacing: 30px;
   opacity: 0.999;
   z-index: 3;
-  padding: 165px 50px 10px 50px;
+  padding-top: 165px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 1000px;
 }
 
 .cover__title-text {
   display: flex;
   padding-bottom: 18px;
+  letter-spacing: 30px;
 }
 
 .cover__title-text-center {
   justify-content: center;
-  margin-left: 40px;
 }
 
 .cover__title-text-right {
-  justify-content: space-between;
-  margin-left: 613px;
+  justify-content: end;
 }
 
 .cover__description {
@@ -218,7 +220,7 @@
 /* third section */
 
 .about {
-  margin: 120px 24px auto 24px;
+  margin: 155px 24px auto 24px;
   display: grid;
   grid-template-columns: 334px auto;
   grid-template-rows: 240px auto;
@@ -226,7 +228,7 @@
     "logo title"
     ". text";
   column-gap: 25px;
-  row-gap: 4px;
+  row-gap: 7px;
 }
 
 .about__logo {
@@ -247,6 +249,7 @@
 }
 
 .about__title {
+  padding-top: 5px;
   grid-area: title;
   align-self: center;
   text-transform: uppercase;
@@ -312,4 +315,8 @@
 
 .list-item_no-bullit {
   list-style: none;
+}
+
+.letter-without-space {
+  letter-spacing: 0;
 }
