@@ -225,8 +225,8 @@
   grid-template-columns: 334px auto;
   grid-template-rows: 240px auto;
   grid-template-areas:
-    "logo title"
-    ". text";
+    'logo title'
+    '. text';
   column-gap: 25px;
   row-gap: 7px;
 }
